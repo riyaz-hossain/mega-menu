@@ -1,0 +1,47 @@
+.admin-balance-req{
+    width: 100%;
+}
+.table{
+    border-top: 1px solid black;
+}
+.table th{
+    font-weight: lighter;
+}
+.action-accept{
+    background-color: rgba(4, 195, 4, 0.29);
+    color: rgb(0, 74, 0);
+    border: 1px solid rgb(0, 74, 0);
+    padding: 3px;
+}
+.action-accept:focus{
+    box-shadow: inset 1px 1px 11px #008447 !important;
+}
+.action-reject{
+    background-color: rgba(255, 67, 67, 0.36);
+    color: rgb(158, 0, 0);
+    border: 1px solid rgb(158, 0, 0);
+    padding: 3px;
+}
+.action-reject:focus{
+    box-shadow: inset 1px 1px 11px #be1802 !important;
+}
+.action-block{
+    background-color: red;
+    color: white;
+    border: 1px solid rgb(158, 0, 0);
+    padding: 3px;
+}
+.action-block:focus{
+    box-shadow: inset 1px 1px 11px #a11502 !important;
+}
+.req-list{
+    width: 100%;
+    text-align: center;
+}
+.req-list:active, .req-list:focus{
+    background-color: rgb(92, 149, 255);
+    border-top: 1px solid black;
+    border-bottom: 1px solid #fff;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
